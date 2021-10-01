@@ -10,5 +10,18 @@ No momento delicado em que vivemos, o uso de máscara em ambientes fechados é i
 
 ## Projeto
 
+*Hardware*:
 
-*ESP32 CAM*
+*ESP32 CAM* : O microcontrolador ESP32 é uma solução altamente integrada para aplicativos Wi-Fi e Bluetooth IoT, com cerca de 20 componentes externos. Neste exemplo, usamos a variante AI Thinker ESP32-CAM que vem com um módulo de câmera OV2640. Este módulo é um sensor de imagem CMOS de baixa voltagem que fornece funcionalidade total de uma câmera UXGA (1632 × 1232) de chip único e processador de imagem em um pacote compacto.
+
+Utilizaremos o a IDE Arduino para programarmos nosso microcontrolador ESP32-CAM.
+
+Outros materiais:
+
+*USB – TTL Serial Adapter
+Breadboard
+2x LEDs
+2x 330 Ohm resistors
+Fios de Jumper*
+
+
