@@ -30,10 +30,11 @@ Outros materiais:
 Utilizaremos a AWS para manter uma alta disponibilidade, segurança e performance no nosso projeto, além de mantermos custos baixos pois pagaremos somente pelo que utilizarmos (não teremos problemas de sub utilização de recursos).
 Iremos consumir uma API chamada Rekognition, na qual poderemos treinar o modelo a partir de nossas fotos para reconhecimento da presença ou não de máscaras em um rosto humano. https://aws.amazon.com/rekognition/.
 
-Com funções lambdas, podemos executar códigos a partir de gatilhos, como por exemplo o envio de imagens da nossa camera para nosso serviço de storage.
+Com funções lambdas, podemos executar códigos a partir de gatilhos, como por exemplo o envio de imagens da nossa camera para nosso serviço de storage.https://aws.amazon.com/lambda/
 
-O IOT core permite a publicação e assinatura de tópicos MQTT. Isso significa que o dispositivo pode enviar qualquer informação arbitrária ao AWS IoT Core ao mesmo tempo em que pode receber comandos de volta.
+O IOT core permite a publicação e assinatura de tópicos MQTT. Isso significa que o dispositivo pode enviar qualquer informação arbitrária ao AWS IoT Core ao mesmo tempo em que pode receber comandos de volta.https://aws.amazon.com/iot-core/
 
+E por fim, para armazenarmos imagens , usaremos o S3, um serviço de storage na nuvem. https://aws.amazon.com/s3/
 
 
 ## Arquitetura ##
