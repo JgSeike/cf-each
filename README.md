@@ -39,8 +39,7 @@ E por fim, para armazenarmos imagens , usaremos o S3, um serviço de storage na 
 
 ## Arquitetura ##
  **esboço da arquitetura em alto nível:**
- TBD
- 
+  ![image](diagrana_cf.png)
  
  **Diagrama de conexões dos componentes e nosso ESP32:**
   TBD
