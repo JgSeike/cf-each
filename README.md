@@ -1,7 +1,7 @@
 # Computação Fisica - EACH
 
-João Guilherme da Cost Seike nUSP 9784634
-Nathan Santos
+João Guilherme da Cost Seike nUSP 9784634  
+Nathan Carvalho dos Santos nUSP 10346759  
 Ailtom Nunes
 
 ## Descrição ##
@@ -43,5 +43,15 @@ E por fim, para armazenarmos imagens , usaremos o S3, um serviço de storage na 
  
  **Diagrama de conexões dos componentes e nosso ESP32:**
   TBD
- 
+  
+## Protocolo MQTT - Message Queuing Telemetry Transport ##
+
+MQTT é um protocolo de troca de informação entre máquinas (M2M)  através da internet muito utilizado para IOT (internet das coisas). Ele é baseado em TCP/IP e possui um menor payload que HTTP. Além disso, é super leve, de baixo consumo de hardware e necessita de uma baixa banda larga.
+
+O protocolo utiliza uma tecnologia de Publisher/Subscriber que tem como intermédio um Broker (Servidor) provido na internet.
+
+Neste modelo, um dispositivo faz uma função de Publisher, o qual publica uma informação no serviço do Broker, para que, então, essa informação possa ser entregue para outro dispositivo, o Subscriber. Para que o Subscriber possa receber as informações provenientes do Publicador, é necessário que o dispositivo esteja registrado no Broker e que esteja registrado como inscrito do dispositivo Publicador.
+
+Segue imagem do diagrama do protocolo: 
+![image](diagrama_mqtt.png)
  
